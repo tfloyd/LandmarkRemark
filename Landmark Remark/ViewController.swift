@@ -45,7 +45,6 @@ class ViewController: UIViewController,CLLocationManagerDelegate,UISearchBarDele
         showUsernameAlert()
         
         FIRApp.configure()
-        
         refNotes = FIRDatabase.database().reference().child("notes")
         
         searchNotes()
@@ -161,7 +160,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,UISearchBarDele
     
     
     //========================================================================
-    /* Place Note Annotation Function */
+    /* Note Placement Annotation Functions */
     //========================================================================
     
     func placeNote( username:String, note: String, location: CLLocationCoordinate2D ){
