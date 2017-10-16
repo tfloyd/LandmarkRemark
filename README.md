@@ -1,4 +1,4 @@
-#Landmark Remark
+Landmark Remark
 by Jeffrey Tabios
 
 This iOS app allows the user to leave notes on their current location, search for notes in the world map and view their current location as well as notes from other users. 
