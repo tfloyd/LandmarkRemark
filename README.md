@@ -28,7 +28,8 @@ How To Run in Xcode (Mac):
 
 Teck Stack:
 Frameworks used is MapKit, CoreLocation and Firebase (by Google)
-Firebase is used for data persistence
+Firebase is used for data persistence and comply with the implicit requirements
+Development time is 8-9hours total
 
 About the code:
 All codes are added into the ViewController.swift file.
@@ -39,3 +40,7 @@ Codes are well commented and are clearly divided into 6 categories via boxed com
 - Note Placement Annotation Functions
 - Search Notes Functions
 - Add Note Functions
+
+Known issues:
+- A warning may appear regarding Firebase library.
+- This app may take battery as it is retrieves location from GPS or Wifi which ever is available
