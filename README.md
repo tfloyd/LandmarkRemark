@@ -29,3 +29,13 @@ How To Run in Xcode (Mac):
 Teck Stack:
 Frameworks used is MapKit, CoreLocation and Firebase (by Google)
 Firebase is used for data persistence
+
+About the code:
+All codes are added into the ViewController.swift file.
+Codes are well commented and are clearly divided into 6 categories via boxed comments namely:
+- On Start
+- Username Functions
+- User Location Functions
+- Note Placement Annotation Functions
+- Search Notes Functions
+- Add Note Functions
