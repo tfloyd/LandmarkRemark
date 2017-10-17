@@ -23,13 +23,16 @@ Searching for notes:
 How To Run in Xcode (Mac):
 - Download a copy from this repository
 - Open terminal and go to the app directory
-- Run ‘pod install’ to install all dependencies
+- Run ‘pod install’ to install all Firebase dependencies
 - Open the .xcworkspace file that is created and run
 
 Teck Stack:
-Frameworks used is MapKit, CoreLocation and Firebase (by Google)
-Firebase is used for data persistence and comply with the implicit requirements
-Development time is 8-9hours total
+Swift language and XCode was used to create this app.
+Frameworks used is MapKit, CoreLocation and Firebase (by Google). 
+Firebase is used for data persistence and comply with the implicit requirements.
+Firebase is acquired using Cocoapods.
+
+Development time is 8-9hours total.
 
 About the code:
 All codes are added into the ViewController.swift file.
