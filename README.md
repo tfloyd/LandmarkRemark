@@ -43,4 +43,4 @@ Codes are well commented and are clearly divided into 6 categories via boxed com
 
 Known issues:
 - A warning may appear regarding Firebase library.
-- This app may take battery as it is retrieves location from GPS or Wifi which ever is available
+- This app uses up battery-life faster as it is retrieves location from GPS or Wifi which ever is available
