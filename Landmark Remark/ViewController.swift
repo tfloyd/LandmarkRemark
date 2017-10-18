@@ -11,6 +11,7 @@ import MapKit
 import CoreLocation
 import Firebase
 
+
 class ViewController: UIViewController,CLLocationManagerDelegate,UISearchBarDelegate,UITextFieldDelegate {
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -48,6 +49,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,UISearchBarDele
         refNotes = FIRDatabase.database().reference().child("notes")
         
         searchNotes()
+        
     }
     
     //========================================================================

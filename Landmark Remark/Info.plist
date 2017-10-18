@@ -36,6 +36,8 @@
 	<true/>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<string>No</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
