@@ -3,7 +3,7 @@ by Jeffrey Tabios
 
 This iOS app allows the user to leave notes on their current location, search for notes in the world map and view their current location as well as notes from other users. 
 
-Usage:
+How to Use:
 - On start of app, you may be asked for app permission to use your location, choose “Allow”
 - Create a username and press Ok
 - The app automatically zooms in to your current location
