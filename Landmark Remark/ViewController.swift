@@ -117,8 +117,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,UISearchBarDele
     /* User Location Functions */
     //========================================================================
     
-    @IBAction func showUserLocation(_ sender: Any) {
-        
+    @IBAction func myLocation(_ sender: Any) {
         //Trigger user location update
         
         showCurrentLocation()
@@ -271,7 +270,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,UISearchBarDele
     /* Add Note Functions  */
     //========================================================================
     
-    @IBAction func showNotePrompt(_ sender: Any) {
+    @IBAction func leaveANote(_ sender: Any) {
         showCurrentLocation()
         showNoteAlert()
     }
